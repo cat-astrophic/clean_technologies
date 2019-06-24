@@ -332,12 +332,49 @@ df.to_csv('C:/Users/User/Documents/Data/ccc/summary_stats_at_club_level.txt', 'w
 
 # Corelation between access growth rate and HDI
 
+# Club level regression for rates
+
 A = pd.DataFrame(df.loc['Rate'].values, columns = ['Access Rate'])
 B = pd.DataFrame(df.loc['HDI_Rate'].values, columns = ['HDI Rate'])
+E = stats.add_constant(B)
 mo = stats.OLS(A,B)
 res = mo.fit()
 print(res.summary())
-file = open('C:/Users/User/Documents/Data/ccc/zresults.txt', 'w')
+file = open('C:/Users/User/Documents/Data/ccc/zresults_clubs_rates.txt', 'w')
+file.write(res.summary().as_text())
+file.close()
+
+# Club level regression for initial values
+
+A = pd.DataFrame(df.loc['Initial'].values, columns = ['Access Level'])
+B = pd.DataFrame(df.loc['HDI_Init'].values, columns = ['Initial HDI'])
+E = stats.add_constant(B)
+mo = stats.OLS(A,B)
+res = mo.fit()
+print(res.summary())
+file = open('C:/Users/User/Documents/Data/ccc/zresults_clubs_init.txt', 'w')
+file.write(res.summary().as_text())
+file.close()
+
+# National level regression for rates
+
+A = data.Rate
+B = data.HDI_Rate
+mo = stats.OLS(A,B)
+res = mo.fit()
+print(res.summary())
+file = open('C:/Users/User/Documents/Data/ccc/zresults_nats_rates.txt', 'w')
+file.write(res.summary().as_text())
+file.close()
+
+# National level regression for initial values
+
+A = data.Initial
+B = data.HDI_Init
+mo = stats.OLS(A,B)
+res = mo.fit()
+print(res.summary())
+file = open('C:/Users/User/Documents/Data/ccc/zresults_nats_init.txt', 'w')
 file.write(res.summary().as_text())
 file.close()
 

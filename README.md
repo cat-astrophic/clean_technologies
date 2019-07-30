@@ -1,4 +1,4 @@
-This repo contains the data and code for "Increasing Access to Clean Fuels and Clean Technologies: A Club Convergence Approach" which is currently under review at Clean Technologies.
+This repo contains the data and code for "Increasing Access to Clean Fuels and Clean Technologies: A Club Convergence Approach" which has been accepted for publication at Clean Technologies. Citation information, including Bibtex, will be updated as soon as the paper is available online.
 
 All data used in this project comes from the World Bank. If used for future research, it should be cited as follows:
 

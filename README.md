@@ -1,6 +1,6 @@
 ## Description
 
-This repo contains the data and code for *Increasing Access to Clean Fuels and Clean Technologies: A Club Convergence Approach* which has been accepted for publication at Clean Technologies. Data preparation, econometric analysis, and results visualization is performed. Citation information, including Bibtex, will be updated as soon as the paper is available online.
+This repo contains the data and code for *Increasing Access to Clean Fuels and Clean Technologies: A Club Convergence Approach* which has been accepted for publication at Clean Technologies. Data preparation, econometric analysis, and results visualization is performed. This includes convergence testing and an implementation of a club convergence algorithm.
 
 ## Citation
 

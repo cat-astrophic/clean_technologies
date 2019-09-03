@@ -4,8 +4,16 @@ This repo contains the data and code for *Increasing Access to Clean Fuels and C
 
 ## Citation
 
-Bibtex for the citation:
+### APA:
+Cary, M. (2019). Increasing Access to Clean Fuels and Clean Technologies: A Club Convergence Approach. Clean Technologies, 1(1), 247–264.
 
+### MLA:
+Cary, Michael. “Increasing Access to Clean Fuels and Clean Technologies: A Club Convergence Approach.” Clean Technologies, vol. 1, no. 1, 2019, pp. 247–264.
+
+### Chicago:
+Cary, Michael. “Increasing Access to Clean Fuels and Clean Technologies: A Club Convergence Approach.” Clean Technologies 1, no. 1 (2019): 247–64.
+
+### Bibtex:
 @article{cary2019increasing,\
 &nbsp;&nbsp;&nbsp;&nbsp;title = {Increasing Access to Clean Fuels and Clean Technologies: A Club Convergence Approach},\
 &nbsp;&nbsp;&nbsp;&nbsp;author = {Cary, Michael},\

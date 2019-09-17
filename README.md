@@ -1,6 +1,8 @@
 ## Description
 
-This repo contains the data and code for *Increasing Access to Clean Fuels and Clean Technologies: A Club Convergence Approach* which has been accepted for publication at Clean Technologies. Data preparation, econometric analysis, and results visualization is performed. This includes convergence testing and an implementation of a club convergence algorithm.
+This repo contains the data and code for "Increasing Access to Clean Fuels and Clean Technologies: A Club Convergence Approach" which has been accepted for publication at *Clean Technologies*. Data preparation, econometric analysis, and results visualization is performed. This includes a beta-convergence test, a test for club convergence using the Philips-Sul method, and an implementation of a club convergence algorithm.
+
+The paper may be found online at: https://www.mdpi.com/2571-8797/1/1/17/htm
 
 ## Citation
 

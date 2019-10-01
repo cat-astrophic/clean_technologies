@@ -22,3 +22,5 @@ Cary, Michael. "Increasing Access to Clean Fuels and Clean Technologies: A Club 
 &nbsp;&nbsp;&nbsp;&nbsp;pages = {247--264},\
 &nbsp;&nbsp;&nbsp;&nbsp;year = {2019}\
 }
+
+Don't forget to cite any data sources you might use independently of this! (see paper for details)

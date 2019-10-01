@@ -2,7 +2,7 @@
 
 This repo contains the data and code for "Increasing Access to Clean Fuels and Clean Technologies: A Club Convergence Approach" which has been accepted for publication at *Clean Technologies*. Data preparation, econometric analysis, and results visualization is performed. This includes a beta-convergence test, a test for club convergence using the Philips-Sul method, and an implementation of a club convergence algorithm.
 
-The paper may be found online at: https://www.mdpi.com/2571-8797/1/1/17/htm
+The paper may be found online at: https://www.mdpi.com/2571-8797/1/1/17
 
 ## Citation
 
@@ -11,9 +11,6 @@ Cary, M. (2019). Increasing Access to Clean Fuels and Clean Technologies: A Club
 
 ### MLA:
 Cary, Michael. "Increasing Access to Clean Fuels and Clean Technologies: A Club Convergence Approach." *Clean Technologies* 1.1 (2019): 247-264.
-
-### Chicago:
-Cary, Michael. "Increasing Access to Clean Fuels and Clean Technologies: A Club Convergence Approach." *Clean Technologies* 1, no. 1 (2019): 247-264.
 
 ### Bibtex:
 @article{cary2019increasing,\
